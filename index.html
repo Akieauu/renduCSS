@@ -5,35 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <title>Concert</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/image-header.png" alt="image-header">
         <nav>
-            <a href=""><img src="assets/logo-header.png" alt="Logo header"></a>
+            <a href="" id="LogoHeader"><img src="assets/logo-header.png" alt="Logo header"></a>
             <ul>
                 <li>
-                    <a href="">Accueil</a>
+                    <a href="" class="navigation">Accueil</a>
                 </li>
                 <li>
-                    <a href="">Line up</a>
+                    <a href="" class="navigation">Line up</a>
                 </li>
                 <li>
-                    <a href="">Ticket</a>
+                    <a href="" class="navigation">Ticket</a>
                 </li>
                 <li>
-                    <a href="">Calendrier</a>
+                    <a href="" class="navigation">Calendrier</a>
                 </li>
                 <li>
-                    <a href="">à Propos</a>
+                    <a href="" class="navigation">à Propos</a>
                 </li>
             </ul>
         </nav>
         <section>
             <div>
-                <h1>URBAN NIGHT <br>Rap Fest</h1>
+                <h1>urban night <span><br>rap fest <br></span></h1>
                 <h2>04 MAI & 05 MAI <br>LYON - PARC DE GERLAND <br> 7EME</h2>
                 <div>
                     <a href="">BILLETERIE</a>
@@ -69,7 +73,6 @@
                 intensité, là où la musique, la vibe et la
                 culture rap ne font plus qu’un.</p>
             <section>
-                <img src="assets/section-img.png" alt="section-img">
             </section>
             <section>
                 <h2>LINE UP</h2>
@@ -85,8 +88,7 @@
                 </ul>
                 <a href="">BILLETERIE</a>
             </section>
-            <img src="assets/banniere-logo.png" alt="">
-            <section>
+            <section class="logos">
                 <img src="assets/spotify.png" alt="">
                 <img src="assets/applemusic.png" alt="">
                 <img src="assets/uber.png" alt="">
@@ -100,19 +102,19 @@
                 <form action="">
                     <div>
                         <label for="">Full Name</label>
-                        <input type="Full Name">
+                        <input type="Full Name" placeholder="Full Name">
                     </div>
                     <div>
                         <label for="">Email</label>
-                        <input type="Email">
+                        <input type="Email" placeholder="Email">
                     </div>
                     <div>
                         <label for="">Phone</label>
-                        <input type="Phone">
+                        <input type="Phone" placeholder="Phone">
                     </div>
                     <div>
                         <label for="">Message</label>
-                        <input type="Message">
+                        <input type="Message" placeholder="Message">
                     </div>
                     <button>
                         <a href="">CONTACT</a>
@@ -124,10 +126,10 @@
     <footer>
         <div>
             <p>Email</p>
-            <a href="">help@raptureclouds.com</a>
+            <a href=""><u>help@raptureclouds.com</u></a>
         </div>
         <form action="">
-            <label for="">NewLetter</label>
+            <label for="" id="newsletter">NewLetter</label>
             <input type="Ton email">
         </form>
         <div>

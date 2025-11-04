@@ -2,3 +2,61 @@ body {
     margin: 0px;
     display: inline;
 }
+
+html {
+    background-color: black;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+div, a{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    list-style-image: none;
+}
+
+.navigation {
+    display: inline;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    float: right;
+    margin-right: 70px;
+}
+
+header {
+    background-image: url(assets/image-header.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main {
+    background-image: url(assets/section-img.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logos {
+    background-image: url(assets/banniere-logo.png);
+    background-repeat: no-repeat;   
+    height: 100vh;
+}
+
+nav {
+    display: inline;
+}
+
+header div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 420px;
+}
+
+header img {
+    margin-top:30px;
+    margin-left: 30px;
+}
