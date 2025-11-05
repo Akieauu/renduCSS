@@ -1,44 +1,84 @@
-body {
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "DM Sans";
+}
+
+.header_buttons{
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin: 3px;
+}
+
+#header_buttons2 {
+    background-color: white;
+    color: black;
+}
+
+ul{
     margin: 0px;
     display: inline;
+}
+h1{
+    font-size: 53px;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+
+#headerh2 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: normal;
+}
+
+#navposition {
+    margin-left: 490px;
 }
 
 html {
     background-color: black;
 }
-
-nav ul li {
-    float: right;
+span{
+    font-size: 100px;
+    line-height: 120px;
+    text-transform: capitalize;
+    font-size: 160px;
+    font-weight: normal;
+}
+nav {
     list-style: none;
     text-transform: uppercase;
 }
+
+a {
+    margin-right: 50px}
 
 div, a{
     color: white;
     font-family: "DM Sans", sans-serif;
     text-decoration: none;
     list-style-image: none;
+    padding-top: 30px;
 }
 
-.navigation {
+header nav {
     display: inline;
     font-family: "DM Sans", sans-serif;
     color: white;
     float: right;
-    margin-right: 70px;
+    margin: 50px 0px 50px 0px;
 }
 
 header {
     background-image: url(assets/image-header.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
 }
 
-main {
-    background-image: url(assets/section-img.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+
 
 .logos {
     background-image: url(assets/banniere-logo.png);
@@ -46,17 +86,22 @@ main {
     height: 100vh;
 }
 
-nav {
+#img{
+    width: 100%;
+}
+
+
+header nav ul li{
+    margin-top: 50px;
+    /* margin-left: 30px; */
     display: inline;
 }
 
-header div {
-    display: inline-block;
-    text-align: center;
-    margin-left: 420px;
+#marginright {
+    margin-right: 50px;
 }
+.container{
+    width: 600px;
+    margin: auto;
 
-header img {
-    margin-top:30px;
-    margin-left: 30px;
 }
